@@ -5,5 +5,5 @@ gnore everything
 !Stack_declaration.hpp
 !README.md
 !main.cpp
-!Stack.hpp
+!Stack.h
 !.gitignore
