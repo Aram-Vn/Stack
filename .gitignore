@@ -2,7 +2,7 @@ gnore everything
 *
 
 # Allow specific files
-!Stack_declaration.h
+!Stack_declaration.hpp
 !README.md
 !main.cpp
 !Stack.hpp
