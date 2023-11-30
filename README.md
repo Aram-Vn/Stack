@@ -18,7 +18,7 @@
 
 ### Accessors
 
-- **empty()**: Returns true if the stack is empty; otherwise, returns false.
+- `**empty()**`: Returns true if the stack is empty; otherwise, returns false.
 - **size()**: Returns the current size of the stack.
 
 ### Element Access
