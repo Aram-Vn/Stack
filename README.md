@@ -43,3 +43,38 @@ include the "Stack_declaration.hpp" header file in your C++ project.
 #include "Stack_declaration.hpp"
 ```
 
+## Usage
+Once the stack is integrated into your project, you can use the provided functions to work with the stack
+```cpp
+#include <iostream>
+#include "Stack_declaration.hpp"
+
+int main() {
+    // Create a stack of integers
+    my::Stack<int> intStack;
+
+    // Push elements onto the stack
+    intStack.push(42);
+    intStack.push(17);
+    intStack.push(8);
+
+    // Display the top element
+    std::cout << "Top element: " << intStack.top() << std::endl;
+
+    // Pop an element
+    intStack.pop();
+
+    // Display the size of the stack
+    std::cout << "Stack size: " << intStack.size() << std::endl;
+
+    //print elements
+ 	  while (!s.empty()) { 
+      std::cout << ' ' << s.top(); //
+     	s.pop();
+  	}
+	  std::cout << std::endl;
+
+    return 0;
+}
+```
+
