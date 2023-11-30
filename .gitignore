@@ -1,0 +1,9 @@
+gnore everything
+*
+
+# Allow specific files
+!Stack_declaration.h
+!README.md
+!main.cpp
+!Stack.hpp
+!.gitignore
