@@ -2,9 +2,11 @@
 
 ********************************************************************************************
 
+
 ## Overview
 
 `my::Stack` is a C++ template class that implements a basic stack data structure. This stack supports common stack operations such as push, pop, top, size, and empty. It is designed to be easy to use and flexible with any data type.
+
 
 ********************************************************************************************
 ## Features
@@ -28,10 +30,14 @@
 - `push(T val)`: Inserts an element at the top of the stack.
 - `pop()`: Removes the top element from the stack.
 
+********************************************************************************************
+
 ## Implementation Details
 
 - The stack dynamically allocates memory for its elements and automatically reallocates when the capacity is reached.
 - The memory reallocation strategy involves doubling the capacity.
+
+********************************************************************************************
 
 ## Usage
 
@@ -42,6 +48,13 @@ include the "Stack_declaration.hpp" header file in your C++ project.
 ```cpp
 #include "Stack_declaration.hpp"
 ```
+
+compiling 
+```bash
+g++ -o <your_program_name> main.cpp
+```
+
+********************************************************************************************
 
 ## Usage
 Once the stack is integrated into your project, you can use the provided functions to work with the stack
