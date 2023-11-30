@@ -90,13 +90,9 @@ void my::Stack<T>::pop()
 }
 
 template <class T>
-void my::Stack<T>::realloc(size_t new_cap)
+void my::Stack<T>::realloc()
 {
-	if(new_cap == 0){
-		m_cap = (m_cap) ? 2 * m_cap : 1;
-	} else {
-		m_cap = new_cap;
-	}	
+	m_cap = (m_cap) ? 2 * m_cap : 1;
 
 	T* tmp_ptr = new T[m_cap];
 

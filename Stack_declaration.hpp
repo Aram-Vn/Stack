@@ -20,7 +20,7 @@ namespace my {
 			void pop(); //is used to remove or ‘pop’ an element from the top of the stack(newest or the topmost element in the stack).
 
 		private:
-			void realloc(size_t new_cap = 0); // reallocates memory, if no argument passed doubles the cap, else cap is equal to new_cap
+			void realloc(); // reallocates memory, by doubleing the cap.
 
 		private:
 			size_t m_size;
