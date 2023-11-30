@@ -54,9 +54,7 @@ compiling
 g++ -o <your_program_name> main.cpp
 ```
 
-********************************************************************************************
 
-## Usage
 Once the stack is integrated into your project, you can use the provided functions to work with the stack
 ```cpp
 #include <iostream>
