@@ -11,22 +11,22 @@
 
 ### Constructors and Destructors
 
-- **Default Constructor**: Creates an empty stack.
-- **Destructor**: Releases resources and cleans up the stack.
+- `Default Constructor`: Creates an empty stack.
+- `Destructor`: Releases resources and cleans up the stack.
 - **Copy Constructor**: Creates a new stack with the same elements as an existing one.
 - **Move Constructor**: Efficiently transfers ownership of resources from another stack.
 
 ### Accessors
 
-- `**empty()**`: Returns true if the stack is empty; otherwise, returns false.
-- **size()**: Returns the current size of the stack.
+- `empty()`: Returns true if the stack is empty; otherwise, returns false.
+- `size()`: Returns the current size of the stack.
 
 ### Element Access
-- **top()**: Returns the top element of the stack (newest element).
+- `top()`: Returns the top element of the stack (newest element).
 
 ### Modifiers
-- **push(T val)**: Inserts an element at the top of the stack.
-- **pop()**: Removes the top element from the stack.
+- `push(T val)`: Inserts an element at the top of the stack.
+- `pop()`: Removes the top element from the stack.
 
 ## Implementation Details
 
