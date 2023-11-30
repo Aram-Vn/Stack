@@ -1,5 +1,7 @@
 # My Stack Library
 
+********************************************************************************************
+
 ## Overview
 
 `my::Stack` is a C++ template class that implements a basic stack data structure. This stack supports common stack operations such as push, pop, top, size, and empty. It is designed to be easy to use and flexible with any data type.
