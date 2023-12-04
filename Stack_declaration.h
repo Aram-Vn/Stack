@@ -9,7 +9,7 @@ namespace my {
 			Stack(); // defolt constructor
 			~Stack(); // destructor
 
-			Stack(std::initializer_list<T> init_list);
+			Stack(const std::initializer_list<T>& init_list);
 			Stack(const Stack& other); // copy constructor 
 			Stack(Stack&& other) noexcept; //move constructor		
 
