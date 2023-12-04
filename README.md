@@ -43,10 +43,10 @@
 
 To use the `my::Stack` class 
 Copy both Stack_declaration.hpp and Stack.h files into your project directory.
-include the "Stack_declaration.hpp" header file in your C++ project.
+include the "Stack_declaration.h" header file in your C++ project.
 
 ```cpp
-#include "Stack_declaration.hpp"
+#include "Stack_declaration.h"
 ```
 
 compiling 
