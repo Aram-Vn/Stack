@@ -20,16 +20,16 @@ my::Stack<T>::~Stack()
 	m_cap = 0;
 }
 
-/* template <class T> */
-/* my::Stack<T>::Stack(std::initializer_list<T>& init_list) : */ 
-/* 	m_size{0}, */ 
-/* 	m_cap{init_list.size()}, */ 
-/* 	m_ptr{new T[m_cap]} */ 
-/* { */
-/*     for (const auto& elem : init_list) { */
-/*     	this->push(elem); */
-/* 	} */
-/* } */
+template <class T>
+my::Stack<T>::Stack(std::initializer_list<T> init_list) : 
+	m_size{0}, 
+	m_cap{init_list.size()}, 
+	m_ptr{new T[m_cap]} 
+{
+    for (const auto& elem : init_list) {
+    	this->push(elem);
+	}
+}
 
 template <class T>
 my::Stack<T>::Stack(const Stack& other) :

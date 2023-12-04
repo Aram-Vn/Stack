@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Stack_declaration.h"
+#include "Stack_declaration.h" // add Stack Library
 
 int main(){
  my::Stack<int> s; 
@@ -22,4 +22,6 @@ int main(){
      	s.pop();
   	}
 	std::cout << std::endl;
+
+// print stack elements
 }
