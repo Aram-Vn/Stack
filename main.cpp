@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Stack_declaration.hpp"
+#include "Stack_declaration.h"
 
 int main(){
  my::Stack<int> s; 

@@ -58,7 +58,7 @@ g++ -o <your_program_name> main.cpp
 Once the stack is integrated into your project, you can use the provided functions to work with the stack
 ```cpp
 #include <iostream>
-#include "Stack_declaration.hpp"
+#include "Stack_declaration.h"
 
 int main() {
     // Create a stack of integers
