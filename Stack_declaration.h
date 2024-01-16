@@ -11,9 +11,9 @@ namespace my {
         Stack();  // defolt constructor
         ~Stack(); // destructor
 
-        Stack(const std::initializer_list<T>& init_list);
-        Stack(const Stack& other);     // copy constructor
-        Stack(Stack&& other) noexcept; // move constructor
+        Stack(const std::initializer_list<T>& init_list); // initializer_list constructor
+        Stack(const Stack& other);     					  // copy constructor
+        Stack(Stack&& other) noexcept; 				      // move constructor
 
     public:
         bool empty() const;  // True, if stack is empty ,Otherwisefalse
